@@ -194,11 +194,11 @@ text-transform: capitalize;
 
 .offer-nav{
     display: flex;
-    justify-content: flex-start; /* Align items from left to right */
+    justify-content: flex-start; 
     align-items: center;
     width: 100%;
-    max-width: 1200px; /* Set a maximum width for responsiveness */
-    margin: 0 auto; /* Center the content */
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
 
 .offer-item{
@@ -210,25 +210,25 @@ text-transform: capitalize;
 
 
 .part-1{
-    order: 1; /* Set the order for part 2 */ 
+    order: 1; 
     margin-right: 80px;
 }
 
 .part-2{
-    order: 2; /* Set the order for part 1 */
+    order: 2; 
     margin-left: opx;
     margin-right: 80px;
 
 }
 
 .part-3{
-    order: 3; /* Set the order for part 3 */
+    order: 3; 
 margin-left: 0px;
 }
 
 
 .offer-item img{
-    max-width: 100%; /* Adjust image width */
+    max-width: 100%; 
 }
 
 
