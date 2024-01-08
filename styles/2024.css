@@ -3,16 +3,41 @@ body{
    
 }
 
-.banner{
+
+
+
+
+
+
+.banner {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 80px;
+    margin: 100px auto 120px; 
+    border-radius: 16px;
+    width: 1320px;
+    height: 600px; 
+    text-align: center;
+    overflow: hidden; 
+    box-shadow: none; 
+    background-size: cover; 
 }
 
-.banner img{
-    width: 100%;
-    height: auto;
-    flex-shrink: 0;
-    filter: brightness(50%);
+.banner img {
+    height: 100%; 
+    width: 100%; 
+    object-fit: cover; 
+    image-
 }
+
+
+
+
+
+
 
 .banner-text{
     color: #FFF;
@@ -78,100 +103,121 @@ margin-bottom: 48px;
 
 
 
+
+
+
+
+
 /* party image */
-.party{
+.party {
     position: relative;
+    background-image: url('/Assets/party.png');
+    background-size: cover;
+    background-position: center;
+    padding: 80px;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.button{
-    color: #000000;
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
+.party-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-#Vectorrr{
-    filter: brightness(70%);
-
-
+.party-text,
+.party-details {
+    width: 100%;
+    max-width: 600px;
 }
 
-#wel{
-    font-family: Merriweather;
-    font-size: 64px;
-    font-weight: 900;
-    line-height: 88px; 
-    letter-spacing: 7.04px;
-
-    margin-top: 125px;
-    margin-bottom: 25px;
-
+.party-text h2,
+.party-details h2 {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 16px;
 }
 
-#paragraph{
-    color: rgba(255, 255, 255, 0.80);
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 166.667% */
-
-margin-top: 0px;
-margin-bottom: 48px;
+.party-text p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 32px;
 }
 
-#button{
-
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-weight: 700;
-text-transform: uppercase;
-margin-top: 0px;
-}
-
-.primary-button{
+.primary-button {
     border-radius: 5px;
     color: white;
     background: #fe0000;
     border: 0;
-    padding: 16px 35px;
-    font-size: 20px;
+    padding: 12px 30px;
+    font-size: 16px;
     font-weight: 700;
+    margin-top: 20px;
+    align-self: center;
 }
 
-.paragraph{
+
+
+
+/* Time Part */
+
+/* Styling the paragraph section */
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+
+
+    position: relative;
+
+
+    display: flex;
+    padding: 100px 80px;
+    margin: 100px auto 200px;
+    border-radius: 16px;
+    width: 1320px;
+    height: 616px;
+
+    margin-bottom: 120px;
+
     color: #F00;
 text-align: center;
 font-family: Inter;
 font-size: 32px;
 font-weight: 600;
-line-height: 56px; /* 175% */
+line-height: 56px; 
 text-transform: capitalize;
 
-padding-top: 130px;
-padding-right: 130px;
-padding-bottom: 330px;
-padding-left: 130px;
-border-radius: 10px;
-background: #e6ddda;
-margin-top: 130px;
-margin-bottom: 130px;
 }
 
-.paragraph h2{
-    color: #070211;
-    font-family: Inter;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 60px;
-    text-transform: capitalize;
+/* Styling the button */
+.primary-button {
+    border-radius: 8px;
+    color: white;
+    background: #fe0000;
+    border: 0;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+gap: 10px   ;
+
 }
+
 
 
 
@@ -284,6 +330,16 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -408,6 +464,15 @@ flex-shrink: 0;
 
 
 
+/* hr */
+.hr{
+    margin-top: 400px;
+    color: white;
+}
+
+
+
+
 
 
 
@@ -416,22 +481,31 @@ flex-shrink: 0;
 /* Style for the Subscribe section */
 
 .subscribe-section {
-    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 20px;
-    background-size: cover;
-}
+    padding: 100px 80px; /* Update padding */
+    margin: 100px auto 200px; /* Updated margin for centering */
+    background-color: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    width: 1320px;
+    height: 616px;
 
+
+  }
+
+  
 
 
 .subscribe-content {
 
   margin-bottom: 20px;
   text-align: center;
+
 }
 
 .subscribe-image{
-    margin-top: 500px;
     display: flex;
     justify-content: center; 
     align-items: center; 
@@ -502,18 +576,72 @@ flex-shrink: 0;
   }
   
 
-  /* Adjusting font size for medium size */
+ 
 
 .subscribe-content h2 {
-    font-size: 24px; /* Medium font size for heading */
+    font-size: 24px; 
   }
   
   .subscribe-content p {
-    font-size: 16px; /* Medium font size for paragraph */
+    font-size: 16px; 
   }
   
-  /* Adjusting font size for input field in email form */
   .email-form input[type="email"] {
-    font-size: 14px; /* Medium font size for input field */
+    font-size: 14px; 
+  }
+  
+
+
+
+
+
+
+/* footer */
+
+
+.footer {
+    background: #070211;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    padding: 30px;
+  }
+  
+  .address,
+  .contact,
+  .rights,
+  .unsubscribe {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social a {
+    display: inline-block;
+  }
+  
+  .social img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .social img:hover {
+    transform: scale(1.2);
+  }
+  
+  .unsubscribe a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  .unsubscribe a:hover {
+    text-decoration: underline;
   }
   
