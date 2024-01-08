@@ -98,7 +98,7 @@ text-transform: uppercase;
     filter: brightness(70%);
 }
 
-#welcome{
+#wel{
     font-family: Merriweather;
     font-size: 64px;
     font-weight: 900;
@@ -169,4 +169,105 @@ margin-bottom: 130px;
     font-weight: 600;
     line-height: 60px;
     text-transform: capitalize;
+}
+
+
+
+
+/* coming soon part */
+
+.best-offer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+
+
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.offer-nav{
+    display: flex;
+    justify-content: flex-start; /* Align items from left to right */
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Set a maximum width for responsiveness */
+    margin: 0 auto; /* Center the content */
+}
+
+.offer-item{
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+.part-1{
+    order: 1; /* Set the order for part 2 */ 
+    margin-right: 80px;
+}
+
+.part-2{
+    order: 2; /* Set the order for part 1 */
+    margin-left: opx;
+    margin-right: 80px;
+
+}
+
+.part-3{
+    order: 3; /* Set the order for part 3 */
+margin-left: 0px;
+}
+
+
+.offer-item img{
+    max-width: 100%; /* Adjust image width */
+}
+
+
+#a1{
+    color: #F00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#a2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;   
+    
+}
+
+#a3{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */   
+}
+
+#b2{
+
+    color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
