@@ -96,6 +96,8 @@ text-transform: uppercase;
 
 #Vectorrr{
     filter: brightness(70%);
+
+
 }
 
 #wel{
@@ -219,11 +221,22 @@ text-transform: capitalize;
     margin-left: opx;
     margin-right: 80px;
 
+    width: 100%; 
+    height: auto; 
+    max-width: 600px; 
+    max-height: 400px;
+
 }
 
 .part-3{
     order: 3; 
 margin-left: 0px;
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
 }
 
 
@@ -280,6 +293,7 @@ line-height: normal;
 .portfolio-1 {
     text-align: center;
     padding: 20px;
+    margin-bottom: 120px;
     img:hover {
         transform: scale(1.1);
       }
@@ -391,3 +405,115 @@ flex-shrink: 0;
     margin-left: 0px;
 }
 */
+
+
+
+
+
+
+
+
+/* Style for the Subscribe section */
+
+.subscribe-section {
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-size: cover;
+}
+
+
+
+.subscribe-content {
+
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.subscribe-image{
+    margin-top: 500px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%;
+    height: 300px; 
+
+
+}
+
+.subscribe-content h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+
+
+
+.subscribe-content p {
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+  
+
+
+
+
+/* Subscribe Button Styles */
+
+.email-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px; 
+    margin: 0 auto; 
+  }
+  
+  .email-form input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px; 
+    width: 60%; 
+  }
+  
+  .email-form button {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .email-form button:hover {
+    background-color: #0056b3; 
+  }
+  
+
+  /* Adjusting font size for medium size */
+
+.subscribe-content h2 {
+    font-size: 24px; /* Medium font size for heading */
+  }
+  
+  .subscribe-content p {
+    font-size: 16px; /* Medium font size for paragraph */
+  }
+  
+  /* Adjusting font size for input field in email form */
+  .email-form input[type="email"] {
+    font-size: 14px; /* Medium font size for input field */
+  }
+  
