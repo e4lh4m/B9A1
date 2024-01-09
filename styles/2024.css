@@ -258,6 +258,8 @@ text-transform: capitalize;
   margin-right: 80px;
 }
 
+
+
 .part-2{
   order: 2; 
   margin-left: opx;
@@ -269,6 +271,28 @@ text-transform: capitalize;
   max-height: 400px;
 
 }
+
+/* Our Line er jonni */
+.part-2 img {
+  border: 15px solid red; 
+  border-radius: 50%; 
+  padding: 5px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .part-3{
   order: 3; 
@@ -357,48 +381,37 @@ line-height: normal;
   align-items: center;
 }
 
-.p1{
-  margin-bottom: 20px;
-  text-align: left;
-
+.p1 {
+  margin-top: 120px;
+  margin-bottom: 0px;
 }
 
-.p2{
-  text-align: left;
-  color: #F00;
+.p2 {
+  color: #f00;
   font-family: Inter;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
-  margin-bottom: 22px;
+  margin-bottom: 15px;
+
 }
 
-.p3{
-  text-align: left;
+.p3 {
   color: #070211;
   font-family: Merriweather;
   font-size: 48px;
-  font-style: normal;
   font-weight: 900;
-  line-height: normal;
   text-transform: capitalize;
-
-  margin-bottom: 22px;
+  margin-bottom: 15px;
 }
 
-.p4{
-
-text-align: left;
-color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 160% */
-
-width: 896px;
-
+.p4 {
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 896px;
+  margin-top: 0px;
 }
 
 
