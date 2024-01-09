@@ -10,16 +10,32 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+
+
   padding: 100px 80px;
   margin: 100px auto 120px; 
   
   border-radius: 16px;
+
+
+
+
+
+
+
   /* auto thakle zoom +_ korle bh change hobe na*/
+
+
+
+
+
   width: auto;
   height: auto; 
   text-align: center;
   box-shadow: none; 
   background-size: cover; 
+
 }
 
 .banner img {
@@ -27,6 +43,7 @@ body{
   width: 100%; 
   object-fit: cover; 
   filter: brightness(75%);
+
 }
 
 
@@ -40,14 +57,17 @@ body{
 position: absolute;
 text-align: center;
 top: 50%;
+
+
+
 left: 50%;
 transform: translate(-50%, -50%);
+
+
 width: 100%;
 max-width: 600px; 
 padding: 0 20px; 
-box-sizing: border-box; 
-  
-  
+   
 }
 
 .banner-text h3{
@@ -59,6 +79,7 @@ margin-bottom: 16px;
 
 .banner-text h2{
   font-size: 70px;
+
   font-weight: 900;
   line-height: 95px; 
   margin-top: 0px;
@@ -71,11 +92,17 @@ margin-bottom: 16px;
 .gen-text{
   text-align: center;
   font-family: 'Inter', sans-serif;
+
+
 margin: 120px;
 }
 
 .gen-text h1{
   color: #F00;
+
+
+
+
 font-size: 88px;
 font-weight: 700;
 margin-bottom: 0px;
@@ -85,6 +112,7 @@ margin-bottom: 0px;
   color: #F00;
 font-size: 24px;
 font-weight: 500;
+
 margin-top: 48px;
 margin-bottom: 16px;
 }
@@ -93,13 +121,10 @@ margin-bottom: 16px;
   color: #070211;
 font-size: 48px;
 font-weight: 700;
+
 margin-top: 0px;
 margin-bottom: 48px;
 }
-
-
-
-
 
 
 
@@ -110,16 +135,23 @@ margin-bottom: 48px;
   background-image: url('Assets/party.png');
   background-size: cover;
   background-position: center;
+
+
+
   padding: 80px;
   color: #FFF;
+
   display: flex;
   justify-content: space-between;
+
+
   align-items: center;
 }
 
 .party-content {
   display: flex;
   flex-direction: row;
+
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
@@ -127,6 +159,11 @@ margin-bottom: 48px;
   margin: 0 auto;
 }
 
+
+
+
+
+/* dui class er kaj ekshathe korte chaile */
 .party-text,
 .party-details {
   width: calc(50% - 10px);
@@ -167,20 +204,23 @@ margin-bottom: 48px;
   height: auto;
 }
 
+#over{
+    position: absolute;
+    
+    top: 290px; 
+    right: 200px; 
+    width: 320px;
+    height: 465px;
+
+
+}
 
 
 
 
 
+/* Time Part er Jonno*/
 
-
-
-
-
-
-/* Time Part */
-
-/* Styling the paragraph section */
 .paragraph {
   display: flex;
   flex-direction: column;
@@ -301,19 +341,6 @@ text-transform: capitalize;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .part-3{
   order: 3; 
 margin-left: 0px;
@@ -370,14 +397,6 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -504,10 +523,7 @@ img {
 
 
 
-
-
-
-/* Style for the Subscribe section */
+/* Style for Subscribe*/
 
 .subscribe-section {
   display: flex;
@@ -572,14 +588,6 @@ margin: 0 auto;
 
 
 
-
-
-
-
-
-
-
-
 /* Subscribe Button Styles */
 
 .email-sub-form {
@@ -631,11 +639,6 @@ padding: 25px 56px;
   font-size: 18px;
 
 }
-
-
-
-
-
 
 
 
@@ -743,4 +746,3 @@ line-height: 40px;
 /* email button Ekhane */
 
 /* Footer fixes */
-
