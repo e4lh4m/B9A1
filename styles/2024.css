@@ -547,15 +547,6 @@ margin: 0 auto;
 
 
 
-
-
-
-
-
-
-
-
-
 /* Subscribe Button Styles */
 
 .email-sub-form {
@@ -571,8 +562,10 @@ margin: 0 auto;
 .email-sub-form input[type="email"] {
   padding: 25px;
   border: 1px solid #ccc;
-  border-radius: 100px;
-  margin-right: -65px; 
+  /* pore fix korbo */
+  border-radius:  50px 0px 0px 50px;
+
+  margin-right: opx; 
   width: 60%; 
   border: none;
 }
@@ -582,6 +575,7 @@ margin: 0 auto;
   background-color: #ff0000;
   color: white;
   border: none;
+  /* pore fix korbo */
   border-radius: 0 50px 50px 0;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -611,11 +605,16 @@ padding: 25px 56px;
 
 
 
+
+
+
+
+
+
 /* footer */
 
 
 .footer {
-  background: #070211;
   color: #FFF;
   font-family: 'Inter', sans-serif;
   padding: 120px 140px;
@@ -623,28 +622,46 @@ padding: 25px 56px;
 font-size: 24px;
 font-weight: 500;
 line-height: 40px;
+
+background-color: #070211;
 }
 
-/* Dan diker gulu */
-.rights,
-.address {
-  text-align: left;
+/*uporer gulu */
 
+.upore{
+  display: flex;
+  justify-content: space-between;
+padding-bottom: 50px;
+
+
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; 
 }
 
-.address{
-  margin-bottom: 0px;
+
+
+/*nicher gulu */
+
+.niche{
+  display: flex;
+  justify-content: space-between;
+
+
+padding-top: 50px;
+
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; 
 }
 
-
-/* Bamer gulu */
-
-.unsubscribe,
-.contact {
-  text-align: right;
-}
-
-/* Unsub Btn */
+/* Unsub Btn 
 
 .unsubscribe a {
   color: #FFF;
@@ -653,7 +670,7 @@ line-height: 40px;
   font-weight: 500;
 }
 
-
+*/
 
 .social {
   display: flex;
@@ -675,6 +692,7 @@ line-height: 40px;
 .social img:hover {
   transform: scale(1.2);
 }
+
 
 
 
