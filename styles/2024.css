@@ -5,10 +5,6 @@ body{
 
 
 
-
-
-
-
 .banner {
     position: relative;
     display: flex;
@@ -30,7 +26,7 @@ body{
     height: 100%; 
     width: 100%; 
     object-fit: cover; 
-    image-
+    filter: brightness(75%);
 }
 
 
@@ -485,8 +481,8 @@ flex-shrink: 0;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 80px; /* Update padding */
-    margin: 100px auto 200px; /* Updated margin for centering */
+    padding: 100px 80px; 
+    margin: 100px auto 200px; 
     background-color: rgba(255, 0, 0, 0.05);
     border-radius: 16px;
     width: 1320px;
@@ -543,58 +539,98 @@ flex-shrink: 0;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Subscribe Button Styles */
 
-.email-form {
+.email-sub-form {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 500px; 
-    margin: 0 auto; 
+    max-width: 500px;
+    margin-top: 50px;
+    margin-right: 0px ; 
+
   }
   
-  .email-form input[type="email"] {
-    padding: 10px;
+  .email-sub-form input[type="email"] {
+    padding: 25px;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-right: 10px; 
+    border-radius: 100px;
+    margin-right: -65px; 
     width: 60%; 
+    border: none;
   }
   
-  .email-form button {
-    padding: 10px 20px;
+  .email-sub-form button {
+    padding: 25px;
     background-color: #ff0000;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 100px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    border: none;
   }
   
-  .email-form button:hover {
+  .email-sub-form button:hover {
     background-color: #0056b3; 
   }
   
 
  
+#sub {
+    font-size: 18px; 
+padding: 25px 56px;
+    
+  }
 
-.subscribe-content h2 {
-    font-size: 24px; 
+  #em{
+    font-size: 18px;
+
   }
   
-  .subscribe-content p {
-    font-size: 16px; 
-  }
-  
-  .email-form input[type="email"] {
-    font-size: 14px; 
-  }
+
   
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 /* footer */
 
@@ -645,3 +681,13 @@ flex-shrink: 0;
     text-decoration: underline;
   }
   
+
+
+  #top{
+    margin-top: 0px;
+  }
+
+
+
+  /* email button */
+
