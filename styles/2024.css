@@ -1,6 +1,5 @@
 body{
   font-family: 'Merriweather', serif;
- 
 }
 
 
@@ -13,11 +12,12 @@ body{
   align-items: center;
   padding: 100px 80px;
   margin: 100px auto 120px; 
+  
   border-radius: 16px;
-  width: 1320px;
-  height: 600px; 
+  /* auto thakle zoom +_ korle bh change hobe na*/
+  width: auto;
+  height: auto; 
   text-align: center;
-  overflow: hidden; 
   box-shadow: none; 
   background-size: cover; 
 }
@@ -107,7 +107,7 @@ margin-bottom: 48px;
 /* party image */
 .party {
   position: relative;
-  background-image: url('/Assets/party.png');
+  background-image: url('Assets/party.png');
   background-size: cover;
   background-position: center;
   padding: 80px;
