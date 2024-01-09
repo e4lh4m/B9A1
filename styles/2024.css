@@ -1,32 +1,32 @@
 body{
-    font-family: 'Merriweather', serif;
-   
+  font-family: 'Merriweather', serif;
+ 
 }
 
 
 
 .banner {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 80px;
-    margin: 100px auto 120px; 
-    border-radius: 16px;
-    width: 1320px;
-    height: 600px; 
-    text-align: center;
-    overflow: hidden; 
-    box-shadow: none; 
-    background-size: cover; 
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 80px;
+  margin: 100px auto 120px; 
+  border-radius: 16px;
+  width: 1320px;
+  height: 600px; 
+  text-align: center;
+  overflow: hidden; 
+  box-shadow: none; 
+  background-size: cover; 
 }
 
 .banner img {
-    height: 100%; 
-    width: 100%; 
-    object-fit: cover; 
-    filter: brightness(75%);
+  height: 100%; 
+  width: 100%; 
+  object-fit: cover; 
+  filter: brightness(75%);
 }
 
 
@@ -36,18 +36,18 @@ body{
 
 
 .banner-text{
-    color: #FFF;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  max-width: 600px; 
-  padding: 0 20px; 
-  box-sizing: border-box; 
-    
-    
+  color: #FFF;
+position: absolute;
+text-align: center;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 100%;
+max-width: 600px; 
+padding: 0 20px; 
+box-sizing: border-box; 
+  
+  
 }
 
 .banner-text h3{
@@ -58,31 +58,31 @@ margin-bottom: 16px;
 }
 
 .banner-text h2{
-    font-size: 70px;
-    font-weight: 900;
-    line-height: 95px; 
-    margin-top: 0px;
-    
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 95px; 
+  margin-top: 0px;
+  
 }
 
 
 /* styles for main part */
 
 .gen-text{
-    text-align: center;
-    font-family: 'Inter', sans-serif;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
 margin: 120px;
 }
 
 .gen-text h1{
-    color: #F00;
+  color: #F00;
 font-size: 88px;
 font-weight: 700;
 margin-bottom: 0px;
 }
 
 .gen-text p{
-    color: #F00;
+  color: #F00;
 font-size: 24px;
 font-weight: 500;
 margin-top: 48px;
@@ -90,7 +90,7 @@ margin-bottom: 16px;
 }
 
 .gen-text h3{
-    color: #070211;
+  color: #070211;
 font-size: 48px;
 font-weight: 700;
 margin-top: 0px;
@@ -106,61 +106,61 @@ margin-bottom: 48px;
 
 /* party image */
 .party {
-    position: relative;
-    background-image: url('/Assets/party.png');
-    background-size: cover;
-    background-position: center;
-    padding: 80px;
-    color: #FFF;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  position: relative;
+  background-image: url('/Assets/party.png');
+  background-size: cover;
+  background-position: center;
+  padding: 80px;
+  color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .party-content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .party-text,
 .party-details {
-    width: 100%;
-    max-width: 600px;
+  width: 100%;
+  max-width: 600px;
 }
 
 .party-text h2,
 .party-details h2 {
-    color: #FFF;
-    font-family: 'Inter', sans-serif;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 1.5;
-    margin-bottom: 16px;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 16px;
 }
 
 .party-text p {
-    color: rgba(255, 255, 255, 0.8);
-    font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.6;
-    margin-bottom: 32px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 32px;
 }
 
 .primary-button {
-    border-radius: 5px;
-    color: white;
-    background: #fe0000;
-    border: 0;
-    padding: 12px 30px;
-    font-size: 16px;
-    font-weight: 700;
-    margin-top: 20px;
-    align-self: center;
+  border-radius: 5px;
+  color: white;
+  background: #fe0000;
+  border: 0;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+  align-self: center;
 }
 
 
@@ -170,27 +170,27 @@ margin-bottom: 48px;
 
 /* Styling the paragraph section */
 .paragraph {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 
 
-    position: relative;
+  position: relative;
 
 
-    display: flex;
-    padding: 100px 80px;
-    margin: 100px auto 200px;
-    border-radius: 16px;
-    width: 1320px;
-    height: 616px;
+  display: flex;
+  padding: 100px 80px;
+  margin: 100px auto 200px;
+  border-radius: 16px;
+  width: 1320px;
+  height: 616px;
 
-    margin-bottom: 120px;
+  margin-bottom: 120px;
 
-    color: #F00;
+  color: #F00;
 text-align: center;
 font-family: Inter;
 font-size: 32px;
@@ -202,14 +202,14 @@ text-transform: capitalize;
 
 /* Styling the button */
 .primary-button {
-    border-radius: 8px;
-    color: white;
-    background: #fe0000;
-    border: 0;
-    padding: 16px 32px;
-    font-size: 16px;
-    font-weight: 700;
-    margin-top: 20px;
+  border-radius: 8px;
+  color: white;
+  background: #fe0000;
+  border: 0;
+  padding: 16px 32px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
 gap: 10px   ;
 
 }
@@ -221,14 +221,14 @@ gap: 10px   ;
 /* coming soon part */
 
 .best-offer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
 
 
 
-    color: #070211;
+  color: #070211;
 font-family: Merriweather;
 font-size: 48px;
 font-weight: 900;
@@ -237,41 +237,41 @@ text-transform: capitalize;
 }
 
 .offer-nav{
-    display: flex;
-    justify-content: flex-start; 
-    align-items: center;
-    width: 100%;
-    max-width: 1200px; 
-    margin: 0 auto; 
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto; 
 }
 
 .offer-item{
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
 }
 
 
 
 
 .part-1{
-    order: 1; 
-    margin-right: 80px;
+  order: 1; 
+  margin-right: 80px;
 }
 
 .part-2{
-    order: 2; 
-    margin-left: opx;
-    margin-right: 80px;
+  order: 2; 
+  margin-left: opx;
+  margin-right: 80px;
 
-    width: 100%; 
-    height: auto; 
-    max-width: 600px; 
-    max-height: 400px;
+  width: 100%; 
+  height: auto; 
+  max-width: 600px; 
+  max-height: 400px;
 
 }
 
 .part-3{
-    order: 3; 
+  order: 3; 
 margin-left: 0px;
 color: rgba(7, 2, 17, 0.60);
 font-family: Inter;
@@ -283,43 +283,43 @@ line-height: 32px; /* 160% */
 
 
 .offer-item img{
-    max-width: 100%; 
+  max-width: 100%; 
 }
 
 
 #a1{
-    color: #F00;
-    text-align: left;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  color: #F00;
+  text-align: left;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 #a2{
-    color: #070211;
-    font-family: Merriweather;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    text-transform: capitalize;   
-    
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;   
+  
 }
 
 #a3{
-    color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px; /* 160% */   
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */   
 }
 
 #b2{
 
-    color: #F00;
+  color: #F00;
 font-family: Inter;
 font-size: 48px;
 font-style: normal;
@@ -343,49 +343,49 @@ line-height: normal;
 
 /* style for Portfolio */
 .portfolio-1 {
-    text-align: center;
-    padding: 20px;
-    margin-bottom: 120px;
-    img:hover {
-        transform: scale(1.1);
-      }
-  }
-  
-  .portfolio-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .p1{
-    margin-bottom: 20px;
-    text-align: left;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 120px;
+  img:hover {
+      transform: scale(1.1);
+    }
+}
 
-  }
-  
-  .p2{
-    text-align: left;
-    color: #F00;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-bottom: 22px;
-  }
-  
-  .p3{
-    text-align: left;
-    color: #070211;
-    font-family: Merriweather;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    text-transform: capitalize;
+.portfolio-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-    margin-bottom: 22px;
-  }
+.p1{
+  margin-bottom: 20px;
+  text-align: left;
+
+}
+
+.p2{
+  text-align: left;
+  color: #F00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 22px;
+}
+
+.p3{
+  text-align: left;
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+
+  margin-bottom: 22px;
+}
 
 .p4{
 
@@ -398,63 +398,63 @@ font-weight: 400;
 line-height: 32px; /* 160% */
 
 width: 896px;
-  
+
 }
 
 
 
 .images-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 45px;
-    margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 45px;
+  margin-bottom: 120px;
 
-    width: 424px;
+  width: 424px;
 height: 450px;
 flex-shrink: 0;
-  }
-  
-  .image-row {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-    margin: 0 5px;
-  }
-  /* #ek{ 
-    margin-right: 20px;
-    margin-bottom: 20px;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 5px;
+}
+/* #ek{ 
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 #dui{
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-left: 0px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 0px;
 }
 
 #tin{
-    margin-bottom: 20px;
-    margin-right: 0px;
+  margin-bottom: 20px;
+  margin-right: 0px;
 }
 
 #char{
-    margin-right: 20px;
-    
+  margin-right: 20px;
+  
 }
 
 #pach{
-    margin-right: 20px;
-    margin-left: 0px;
+  margin-right: 20px;
+  margin-left: 0px;
 }
 
 
 #soy{
-    margin-left: 0px;
+  margin-left: 0px;
 }
 */
 
@@ -462,8 +462,8 @@ flex-shrink: 0;
 
 /* hr */
 .hr{
-    margin-top: 400px;
-    color: white;
+  margin-top: 400px;
+  color: white;
 }
 
 
@@ -477,64 +477,64 @@ flex-shrink: 0;
 /* Style for the Subscribe section */
 
 .subscribe-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 80px; 
-    margin: 100px auto 200px; 
-    background-color: rgba(255, 0, 0, 0.05);
-    border-radius: 16px;
-    width: 1320px;
-    height: 616px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 80px; 
+  margin: 100px auto 200px; 
+  background-color: rgba(255, 0, 0, 0.05);
+  border-radius: 16px;
+  width: 1320px;
+  height: 616px;
 
 
-  }
+}
 
-  
+
 
 
 .subscribe-content {
 
-  margin-bottom: 20px;
-  text-align: center;
+margin-bottom: 20px;
+text-align: center;
 
 }
 
 .subscribe-image{
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    width: 100%;
-    height: 300px; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  width: 100%;
+  height: 300px; 
 
 
 }
 
 .subscribe-content h2 {
-  color: #070211;
-  font-family: Merriweather;
-  font-size: 36px;
-  font-weight: 900;
-  line-height: normal;
-  text-transform: capitalize;
-  margin-bottom: 22px;
+color: #070211;
+font-family: Merriweather;
+font-size: 36px;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin-bottom: 22px;
 }
 
 
 
 .subscribe-content p {
-  color: rgba(7, 2, 17, 0.60);
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 32px;
-  width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+width: 100%;
+max-width: 600px;
+margin: 0 auto;
 }
 
-  
+
 
 
 
@@ -559,135 +559,137 @@ flex-shrink: 0;
 /* Subscribe Button Styles */
 
 .email-sub-form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 500px;
-    margin-top: 50px;
-    margin-right: 0px ; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+  margin-top: 50px;
+  margin-right: 0px ; 
 
-  }
-  
-  .email-sub-form input[type="email"] {
-    padding: 25px;
-    border: 1px solid #ccc;
-    border-radius: 100px;
-    margin-right: -65px; 
-    width: 60%; 
-    border: none;
-  }
-  
-  .email-sub-form button {
-    padding: 25px;
-    background-color: #ff0000;
-    color: white;
-    border: none;
-    border-radius: 100px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    border: none;
-  }
-  
-  .email-sub-form button:hover {
-    background-color: #0056b3; 
-  }
-  
+}
 
- 
+.email-sub-form input[type="email"] {
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  margin-right: -65px; 
+  width: 60%; 
+  border: none;
+}
+
+.email-sub-form button {
+  padding: 25px;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 0 50px 50px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.email-sub-form button:hover {
+  background-color: #0056b3; 
+}
+
+
+
 #sub {
-    font-size: 18px; 
+  font-size: 18px; 
 padding: 25px 56px;
-    
-  }
-
-  #em{
-    font-size: 18px;
-
-  }
   
+}
 
-  
+#em{
+  font-size: 18px;
 
-
-
-
-
-
+}
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-  
 
 /* footer */
 
 
 .footer {
-    background: #070211;
-    color: #FFF;
-    font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    padding: 30px;
-  }
-  
-  .address,
-  .contact,
-  .rights,
-  .unsubscribe {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .social {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .social a {
-    display: inline-block;
-  }
-  
-  .social img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .social img:hover {
-    transform: scale(1.2);
-  }
-  
-  .unsubscribe a {
-    color: #FFF;
-    text-decoration: none;
-  }
-  
-  .unsubscribe a:hover {
-    text-decoration: underline;
-  }
-  
+  background: #070211;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  padding: 120px 140px;
+
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+}
+
+/* Dan diker gulu */
+.rights,
+.address {
+  text-align: left;
+
+}
+
+.address{
+  margin-bottom: 0px;
+}
 
 
-  #top{
-    margin-top: 0px;
-  }
+/* Bamer gulu */
+
+.unsubscribe,
+.contact {
+  text-align: right;
+}
+
+/* Unsub Btn */
+
+.unsubscribe a {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
 
 
 
-  /* email button */
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.social a {
+  display: inline-block;
+}
+
+.social img {
+  width: 60px;
+  height: auto;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social img:hover {
+  transform: scale(1.2);
+}
+
+
+
+
+/*  
+.hline1{
+  margin-top: 50px ;
+}
+
+.hline2{
+  margin-bottom: 50px;
+}
+*/
+
+/* email button Ekhane */
+
+/* Footer fixes */
 
